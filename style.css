@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background-color: #001219;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.principal {
+    position: absolute;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 50%;
+    top: 40%;
+    gap: 100px;
+    transform: translate(-50% , -50%);
+}
+
+
+
+.principal h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.principal .logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.conteudo {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.url-input {
+    display: flex;
+    text-align: center;
+    outline: transparent;
+    padding: 12px 20px;
+    width: 400px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #001219;
+    box-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.encurtar {
+    padding: 12px 20px;
+    width: 150px;
+    border-radius: 50px;
+    color: white;
+    background-color: #005f73;
+    cursor: pointer;
+    box-shadow: 0.1em 0.1em 0.2em black;
+}
+
+
+.encurtar:hover {
+    transform: scale(1.1);
+    border: 2px solid #005f73;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+
+.copiar i {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.copiar {
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.copiar:hover{
+    transform: scale(1.1);
+    color: green;
+    transition: .2s;
+}
+
+
+
